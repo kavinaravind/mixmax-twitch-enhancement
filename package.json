@@ -1,0 +1,30 @@
+{
+  "name": "mixmax-twitch-enhancement",
+  "version": "1.0.0",
+  "description": "build a Mixmax SDK integration using the \"Integration API\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kavinaravind/mixmax-twitch-enhancement.git"
+  },
+  "author": "Kavin Aravind",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kavinaravind/mixmax-twitch-enhancement/issues"
+  },
+  "homepage": "https://github.com/kavinaravind/mixmax-twitch-enhancement#readme",
+  "dependencies": {
+    "body-parser": "^1.12.2",
+    "cors": "^2.7.1",
+    "express": "^4.12.3",
+    "path": "^0.12.7",
+    "pem": "^1.9.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.7.1"
+  }
+}
