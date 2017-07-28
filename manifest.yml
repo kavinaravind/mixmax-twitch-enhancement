@@ -1,0 +1,8 @@
+---
+applications:
+- name: mixmax-twitch-app
+  command: npm start
+  path: .
+  memory: 1024M
+  env:
+    env_type: production
