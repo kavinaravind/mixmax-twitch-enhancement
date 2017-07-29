@@ -3,8 +3,8 @@ var TwitchApi = require('twitch-api');
 
 // Values provided by dev.twitch.tv
 var twitch = new TwitchApi({
-	clientId: 'ztv6pgjhgkb0be70sbxvmc37b38bzh',
-  clientSecret: 'xmxhbsmeq8v05kjw9e8aj9pezd1vqu',
+	clientId: 'INSERT ID',
+  clientSecret: 'INSERT SECRET',
   redirectUri: 'http://localhost',
   scopes: []
 });
